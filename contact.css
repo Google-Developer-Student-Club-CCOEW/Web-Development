@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+}
+.bgimg{
+    position: relative;
+    width: 100vw;
+    opacity: 0.3;
+}
+.glow{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    background-color: transparent;
+}
+.glow .outertab{
+    width: 100%;
+    padding: 5%;
+    justify-content: center;
+    background-color: transparent;
+}
+.message{
+    margin: 0%;
+    padding: 3%;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: transparent;
+}
+.message h2{
+    font-size: 70px;
+    background-color: transparent;
+}
+.Box1{
+    margin: 1%;
+    background-color: transparent;
+}
+.Box1 .submit{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box1 .submit a{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.637);
+}
+.Box1 table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+}
+.Box1 th{
+    margin: 4px;
+    background-color: transparent;
+}
+.Box1 label{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+.Box1 .mb{
+    margin-bottom: 1rem;
+    margin: 4px;
+    background-color: transparent;
+}
+
+.Box1 .submit a{
+    color: aliceblue;
+}
+.Box2{
+    margin: 1%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+.Box2 .content{
+    color: antiquewhite;
+    background-color: transparent;
+    padding-left: 3%;
+}
+.Box2 .content p{
+        font-size: 50px;
+        width: 100%;
+        background: -webkit-linear-gradient(rgb(255, 255, 77),rgb(255, 137, 137),rgb(255, 105, 255),rgb(99, 99, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.Box2 .content table{
+    width: 75%;
+    font-size: 150%;
+    color: antiquewhite;
+    background-color: transparent;
+}
+.Box2 .content table tr th a{
+    color: antiquewhite;
+    background-color: transparent;
+}
+.Box2 .content table tr .label{
+    display: flex;
+    padding-right: 10px;
+    justify-content: end;
+    align-items: flex-end;
+    color: antiquewhite;
+    background-color: transparent;
+}
